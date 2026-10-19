@@ -1,0 +1,13 @@
+configuration {
+    modi: "drun,run,window";
+    icon-theme: "Papirus";
+    font: "mono 16";
+    show-icons: true;
+    terminal: "alacritty"; // Jarri hemen erabiltzen duzun terminala (adib. xterm, st, alacritty)
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    sidebar-mode: true;
+}
+
+@theme "solarized" // Rofirekin datozen jatorrizko gaietako bat
